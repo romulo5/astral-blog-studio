@@ -12,18 +12,18 @@ export default {
         // use your content.
         styles: [
           {title: 'Normal', value: 'normal'},
-          {title: 'H1', value: 'h1'},
-          {title: 'H2', value: 'h2'},
-          {title: 'H3', value: 'h3'},
-          {title: 'H4', value: 'h4'},
-          {title: 'Quote', value: 'blockquote'}
+          {title: 'Título 1', value: 'h1'},
+          {title: 'Título 2', value: 'h2'},
+          {title: 'Título 3', value: 'h3'},
+          {title: 'Título 4', value: 'h4'},
+          {title: 'Citação', value: 'blockquote'}
         ],
-        lists: [{title: 'Bullet', value: 'bullet'}, {title: 'Number', value: 'number'}],
+        lists: [{title: 'Bullet', value: 'bullet'}, {title: 'Números', value: 'number'}],
         // Marks let you mark up inline text in the block editor.
         marks: {
           // Decorators usually describe a single property – e.g. a typographic
           // preference or highlighting by editors.
-          decorators: [{title: 'Strong', value: 'strong'}, {title: 'Emphasis', value: 'em'}],
+          decorators: [{title: 'Negrito', value: 'strong'}, {title: 'Ítalico', value: 'em'}],
           // Annotations can be any object structure – e.g. a link or a footnote.
           annotations: [
             {

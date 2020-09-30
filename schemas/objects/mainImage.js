@@ -10,6 +10,7 @@ export default {
         name: 'caption',
         type: 'string',
         title: 'Legenda da Imagem',
+        description: 'opcional',
         options: {
           isHighlighted: true
         }

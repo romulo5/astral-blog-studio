@@ -1,8 +1,10 @@
+import {FaCogs} from 'react-icons/fa'
 export default {
     name: 'siteSettings',
     type: 'document',
     title: 'Configurações do Site',
-    __experimental_actions: ['update', 'create', 'delete', 'publish'],
+    __experimental_actions: ['update', 'delete', 'publish'],
+    icon: FaCogs,
     fields: [
       {
         name: 'title',
