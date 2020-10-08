@@ -1,4 +1,5 @@
 import { FaCamera } from 'react-icons/fa'
+import {format} from 'date-fns'
 export default {
   name: "comFoto",
   type: "document",
@@ -86,14 +87,12 @@ export default {
       title: "title",
       publishedAt: "publishedAt",
       slug: "slug",
-      media: "images",
     },
     prepare({ title = "Sem Título", publishedAt, slug = {}, media }) {
       const dateSegment = format(publishedAt, "MM/YYYY");
       const path = `/${dateSegment}/${slug.current}/`;
       return {
         title,
-        media,
         subtitle: publishedAt ? path : "Faltando data de publicação",
       };
     },
